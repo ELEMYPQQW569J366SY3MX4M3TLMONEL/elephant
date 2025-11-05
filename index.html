@@ -108,7 +108,7 @@ async function loadModel(){
   try{
     setStatus('Loading model…');
     setBar(10);
-    model=await tf.loadGraphModel('https://emaapp.github.io/elephant/tfjs_model/model.json');
+    model=await tf.loadGraphModel('https://elemypqqw569j366sy3mx4m3tlmonel.github.io/elephant/tfjs_model/model.json');
     setBar(30);
     await tf.nextFrame();
     const warm=tf.zeros([1,modelInput,modelInput,3]);
